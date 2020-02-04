@@ -22,6 +22,7 @@ import { OrderCompleteComponent } from './order-complete/order-complete.componen
   imports: [
     BrowserModule,
     RouterModule.forRoot([  
+  {path:" ", component:WelcomepageComponent},   
   {path:"home", component:WelcomepageComponent},
   {path:"size", component:SizeComponent} ,
   {path:"milktype", component:MilkTypeComponent},
